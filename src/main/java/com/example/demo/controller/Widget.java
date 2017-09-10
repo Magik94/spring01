@@ -14,8 +14,7 @@ public class Widget {
     public Widget(String type, int length, int height) {
         this.type = type;
         this.length = length;
-        this.height = height;
-    }
+        this.height = height;}
 
     public String getType() {
         return type;

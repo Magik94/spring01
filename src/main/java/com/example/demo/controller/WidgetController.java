@@ -25,7 +25,7 @@ public class WidgetController {
 //        return new Widget("green", 10, 7);
 //    }
     public String sayHello(ModelMap model) {
-        model.addAttribute("greeting", "Hello World from Spring 4 MVC");
+        model.addAttribute("greeting", "Heello World from Spring 4 MVC");
         return "welcome";
     }
     @RequestMapping(value = "/look", method = RequestMethod.GET)
